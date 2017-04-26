@@ -144,6 +144,7 @@ types[MAESTRO] = {
 };
 
 function creditCardType(cardNumber) {
+  console.log("EIlon Testt-------------------------------------------------King");
   var type, value, i;
   var prefixResults = [];
   var exactResults = [];

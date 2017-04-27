@@ -149,7 +149,7 @@ types[ISRACARD] = {
   niceType: 'Isracard',
   type: ISRACARD,
   prefixPattern: /^\d+$/,
-  exactPattern: /^\d+$/,
+  exactPattern: /^[0-9]{8,9}$/,
   gaps: [],
   lengths: [8, 9],
   code: {

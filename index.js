@@ -151,7 +151,7 @@ types[ISRACARD] = {
   prefixPattern: /^\d+$/,
   exactPattern: /^[0-9]{8,9}$/,
   gaps: [],
-  lengths: [8, 9],
+  lengths: [8, 10],
   code: {
     name: CVC,
     size: 3

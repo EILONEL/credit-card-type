@@ -149,9 +149,9 @@ types[ISRACARD] = {
   niceType: 'Isracard',
   type: ISRACARD,
   prefixPattern: /^\d+$/,
-  exactPattern: /^[0-9]{8,9}$/,
+  exactPattern: /^[0-9]{8}$/,
   gaps: [],
-  lengths: [8, 10],
+  lengths: [8, 9],
   code: {
     name: CVC,
     size: 3

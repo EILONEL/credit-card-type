@@ -148,10 +148,10 @@ types[MAESTRO] = {
 types[ISRACARD] = {
   niceType: 'Isracard',
   type: ISRACARD,
-  prefixPattern: /^\d+$/,
-  exactPattern: /^[0-9]{8}$/,
+  prefixPattern: /^(\d+)$/,
+  exactPattern: /^[0-9]$/,
   gaps: [],
-  lengths: [8, 9],
+  lengths: [9],
   code: {
     name: CVC,
     size: 3
